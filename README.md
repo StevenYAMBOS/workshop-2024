@@ -1,4 +1,26 @@
-# Guide d'Utilisation
+# Guide d'utilisation
+
+<p align="center">
+  <a href="https://randomnerdtutorials.com/getting-started-with-esp32/" target="blank"><img src="https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2022/10/ESP32-Getting-Started.jpg?resize=1024%2C576&quality=100&strip=all&ssl=1" width="800" alt="ESP32 guide" /></a>
+</p>
+
+## Sommaire
+
+- [Introduction](#introduction)
+- [I - Technologies utilisées](#i---technologies-utilisées)
+  - [Matériel](#matériel)
+  - [Logiciel](#logiciel)
+- [II - Manuel d'utilisation](#ii---manuel-dutilisation)
+  - [Accès à l'application](#accès-à-lapplication)
+  - [Tableau de bord](#tableau-de-bord)
+  - [Graphiques](#graphiques)
+  - [Notifications](#notifications)
+    - [Code couleur des indicateurs](#code-couleur-des-indicateurs)
+    - [Seuils de qualité de l'air](#seuils-de-qualité-de-lair)
+    - [Interprétation des alertes](#interprétation-des-alertes)
+    - [Rappel des normes](#rappel-des-normes)
+    - [Exemples de notifications](#exemples-de-notifications)
+- [Développeurs](#développeurs)
 
 ## Introduction
 
