@@ -1,7 +1,7 @@
 # Guide d'utilisation
 
 <p align="center">
-  <a href="https://randomnerdtutorials.com/getting-started-with-esp32/" target="blank"><img src="https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2022/10/ESP32-Getting-Started.jpg?resize=1024%2C576&quality=100&strip=all&ssl=1" width="800" alt="ESP32 guide" /></a>
+  <a href="https://youtu.be/3FmN46XQius" target="blank"><img src="https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2022/10/ESP32-Getting-Started.jpg?resize=1024%2C576&quality=100&strip=all&ssl=1" width="800" alt="ESP32 guide" /></a>
 </p>
 
 ## Sommaire
@@ -20,6 +20,7 @@
     - [Interprétation des alertes](#interprétation-des-alertes)
     - [Rappel des normes](#rappel-des-normes)
     - [Exemples de notifications](#exemples-de-notifications)
+- [Glossaire des termes](#glossaire-des-termes)
 - [Développeurs](#développeurs)
 
 ## Introduction
@@ -144,9 +145,56 @@ Les seuils ci-dessous sont définis pour les paramètres mesurés par le capteur
 
 ---
 
-Cette configuration garantit que votre système alerte efficacement les utilisateurs tout en respectant les réglementations et normes de qualité de l'air. Vous pouvez personnaliser davantage les messages ou les seuils en fonction des spécificités de votre application.
+### Glossaire des termes
 
-## Développeurs
+Glossaire de l'application :
+
+**ESP32**
+
+Un microcontrôleur puissant conçu pour les projets IoT (Internet des Objets). Il intègre Wi-Fi et Bluetooth, ce qui le rend idéal pour des applications connectées en temps réel.
+
+**SCD30**
+
+Un capteur avancé capable de mesurer :
+- **CO2 (Dioxyde de Carbone)** : Mesure les niveaux de dioxyde de carbone dans l'air (en ppm).
+- **Température** : Mesure la température ambiante (en °C).
+- **Humidité relative** : Mesure l'humidité dans l'air (en %).
+
+**Firebase Real Time Database**
+
+Une base de données cloud fournie par Google qui permet de stocker et de synchroniser les données en temps réel entre plusieurs clients.
+
+**Arduino IDE**
+
+Un environnement de développement intégré (IDE) utilisé pour programmer des microcontrôleurs comme l'ESP32. Il fournit une interface simple pour écrire et téléverser des scripts.
+
+**NTP (Network Time Protocol)**
+
+Un protocole utilisé pour synchroniser l'heure de l'ESP32 avec un serveur distant. Cela permet de récupérer un horodatage précis.
+
+**NextJS**
+
+Un framework JavaScript basé sur React.js, utilisé pour développer des applications web modernes. Il facilite la création d'applications performantes avec rendu côté serveur et génération statique.
+
+**Tailwind CSS**
+
+Un framework CSS utilitaire qui simplifie le processus de stylisation des interfaces utilisateur en utilisant des classes pré-définies.
+
+**Vercel**
+
+Une plateforme de déploiement qui héberge des applications web. Elle est utilisée ici pour déployer l'interface utilisateur Next.js.
+
+**ChartJS**
+
+Une bibliothèque JavaScript pour créer des graphiques interactifs et visuels dans les applications web. Elle est utilisée pour représenter les données collectées sous forme graphique.
+
+**PWA (Progressive Web App)**
+
+Une application web optimisée pour offrir une expérience utilisateur similaire à une application native, y compris le mode hors-ligne et la possibilité d'être installée sur un appareil mobile.
+
+---
+
+### Développeurs
 
 - [Allan GARNIER](https://github.com/AlanGarnier)
 - [Zohra HUSSAIN](https://github.com/Zoh-ra)
