@@ -57,7 +57,7 @@ Ce système fournit une solution complète pour surveiller les conditions enviro
 
 ### Matériel
 
-- ![Espressif](https://img.shields.io/badge/espressif-E7352C.svg?style=for-the-badge&logo=espressif&logoColor=white) **(ESP32-WROOM-32E)** : Microcontrôleur qui collecte et transmet les données des capteurs à Firebase.
+- ![Espressif](https://img.shields.io/badge/espressif-E7352C.svg?style=for-the-badge&logo=espressif&logoColor=white) **(ESP32-FireBeetle)** : Microcontrôleur qui collecte et transmet les données des capteurs à Firebase.
 - **Capteur SCD30** : Mesure les niveaux de CO2, la température et l'humidité.
 - **Batterie (LiPo 3.7V 1800mAh)** : Fournit une alimentation mobile à l'ESP32 pour les tests réels.
 
@@ -231,7 +231,7 @@ Cette section détaille les étapes nécessaires pour configurer, tester et dép
 
 #### Composants requis
 
-- **ESP32-WROOM-32E** : Microcontrôleur pour collecter et envoyer les données.
+- **ESP32-FireBeetle** : Microcontrôleur pour collecter et envoyer les données.
 - **Capteur SCD30** : Mesure les niveaux de CO2, la température et l'humidité.
 - **Batterie LiPo (3.7V 1800mAh)** : Fournit une alimentation mobile à l'ESP32 pour les tests réels.
 - **Câbles Dupont** : Pour connecter le capteur à l'ESP32.
