@@ -77,7 +77,7 @@ Ce système fournit une solution complète pour surveiller les conditions enviro
 
 ### Accès à l'application
 
-L'application est accessible à partir de ce lien : [https://workshop2024](https://workshop2024).
+L'application est accessible à partir de ce lien : [Interface utilisateur](https://workshop-nextjs-app.vercel.app/).
 
 ### Tableau de bord
 
